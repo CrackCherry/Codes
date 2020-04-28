@@ -35,7 +35,7 @@ let datas = {
         "{\n" +
         "\tpublic static void main(String[] args)\n" +
         "\t{\n" +
-        "\t\t//2、 final 修饰的方法不能被子类复写。\n" +
+        "\t\t//3、 final 修饰的变量（成员变量或局部变量）即为常量，只能赋值一次。\n" +
         "\t\tClass1 class1 = new Class1();\n" +
         "\t}\n" +
         "}\n" +
